@@ -10,7 +10,7 @@
 {% set rate_limit_duration_secs = 1200 %}
 
 {# Number of primary shards and replicas to index into #}
-{% set shard_count = 10 %}
+{% set shard_count = 12 %}
 {% set replica_count = 1 %}
 
 {% set shard_sizing_iterations = 25 %}
